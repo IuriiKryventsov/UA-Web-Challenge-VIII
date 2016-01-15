@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>UA Web Challenge VIII</title>
+    <script type="text/javascript" src="script.js"></script>
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Poiret+One&subset=cyrillic' rel='stylesheet' type='text/css'>
+</head>
+<body>
+<div id="calculator">
+    <form action="javascript:void(0);">
+        <div class="inputData">
+            <div class="field">
+                <label for="weight">Введіть Вашу вагу:</label>
+                <input id="weight" type="number" min="10" max="300" required
+                       placeholder="у кг, у діапазоні від 10 до 300кг"/>
+            </div>
+            <div class="field">
+                <label for="height">Введіть Ваш зріст:</label>
+                <input id="height" type="number" min="20" max="250" required
+                       placeholder="у см, у діапазоні від 20 до 250 см"/>
+            </div>
+        </div>
+       <input id="calculate" type="submit" value="Розрахувати"/>
+    </form>
+    <table id="results">
+        <tr id="tableHeader">
+            <td>Індекс маси тіла</td>
+            <td>Класифікація</td>
+        </tr>
+        <tr id="underWeight">
+            <td>менше 18,5</td>
+            <td>Недостатня маса</td>
+        </tr>
+        <tr id="normalWeight">
+            <td>18,5—24,9</td>
+            <td>Норма</td>
+        </tr>
+        <tr id="overWeight">
+            <td>25,0—29,9</td>
+            <td>Передожиріння (гладкість)</td>
+        </tr>
+        <tr id="obesityFirstClass">
+            <td>30,0—34,9</td>
+            <td>Ожиріння I ступеня</td>
+        </tr>
+        <tr id="obesitySecondClass">
+            <td>35,0—39,9</td>
+            <td>Ожиріння II ступеня</td>
+        </tr>
+        <tr id="obesityThirdClass">
+            <td>більше 40,0</td>
+            <td>Ожиріння III ступеня</td>
+        </tr>
+    </table>
+</div>
+</body>
+</html>

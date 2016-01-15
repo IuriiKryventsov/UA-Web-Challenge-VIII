@@ -1,0 +1,68 @@
+#calculator {
+   width: 35%;
+   margin: 50px auto;
+
+}
+
+table, td {
+    border: 1px grey solid;
+    font: 400 24pt 'Poiret One';
+}
+td {
+    text-align: center;
+    vertical-align: middle;
+}
+
+#results{
+    display: none;
+    margin-top: 80px;
+}
+#calculate{
+    background-color: #4c96e1;
+    border-radius: 4px;
+    padding: 10px;
+    font: 600 24pt 'Poiret One';
+    color: #ffffff;
+    margin: 5% 35%;
+}
+
+.inputData{
+    float: left
+}
+.field {
+    clear:both;
+    line-height:45px;
+}
+label {
+    display: block;
+    font: 600 22pt 'Poiret One';
+    width: 240px;
+
+    float: left;
+}
+
+input[type=number]{
+    width: 320px;
+    height: auto;
+    border-radius: 2px;
+    font: 600 14pt 'Poiret One';
+    color: black;
+    -webkit-box-shadow: 3px 3px 5px 0 rgba(66,66,66,0.75);
+    -moz-box-shadow: 3px 3px 5px 0 rgba(66,66,66, 0.75);
+    box-shadow: 3px 3px 5px 0 rgba(66,66,66,0.75);
+}
+.field{
+    margin: 5px;
+}
+
+#tableHeader {
+    background-color: rgb(102, 102, 102);
+    color: rgb(255, 255, 255);
+}
+
+.active {
+    background-color: rgb(205, 205, 205);
+}
+.active td {
+    font: 600 24pt 'Poiret One'!important;
+}
